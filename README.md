@@ -11,27 +11,27 @@
 
 ### CRUD ###
 ### Incluir um cliente
-Endpoint: localhost:8080/clientes
-Método HTTP: POST
-Request Payload: 
+1. Endpoint: localhost:8080/clientes
+1. Método HTTP: POST
+1. Request Payload: 
 {
 	"nome":"Preencher o nome",
 	"email":"Preencher o e-mail (nome@email.com)"
 }
 
 ## Atualizar o nome de um cliente
-Endpoint: localhost:8080/clientes
-Método HTTP: PUT
-Request Payload: 
+1. Endpoint: localhost:8080/clientes
+1. Método HTTP: PUT
+1. Request Payload: 
 {
 	"id":"Preencher com Id válido",
 	"nome":"Preencher novo nome"
 }
 
 ## Excluir um cliente
-Endpoint: localhost:8080/clientes/{Informar o ID do cliente}
-Método HTTP: DELETE
+1. Endpoint: localhost:8080/clientes/{Informar o ID do cliente}
+1. Método HTTP: DELETE
 
 ## Listar os clientes cadastrados
-Endpoint: localhost:8080/clientes
-Método HTTP: GET
+1. Endpoint: localhost:8080/clientes
+1. Método HTTP: GET
