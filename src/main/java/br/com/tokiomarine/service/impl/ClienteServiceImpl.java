@@ -116,11 +116,9 @@ public class ClienteServiceImpl implements ClienteService {
 		//
 		if (!StringUtils.isEmpty(cliente.getNome()))
 			clienteAtualizado.setNome(cliente.getNome());
-		;
 		//
 		if (!StringUtils.isEmpty(cliente.getEmail()))
 			clienteAtualizado.setEmail(cliente.getEmail());
-		;
 
 		return clienteAtualizado;
 	}
